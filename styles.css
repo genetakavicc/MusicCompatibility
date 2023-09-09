@@ -1,0 +1,64 @@
+/* Custom CSS for centering */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Aspect ratio container */
+.album-cover {
+    width: 300px; /* Adjust the width as needed for a larger square */
+    padding-top: 100%; /* 1:1 aspect ratio (height = width) */
+    position: relative;
+    background-color: black; /* Background color for the container */
+}
+
+/* Content inside the aspect ratio container */
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the image */
+.album-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Style for the text container */
+.text-container {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin-top to control spacing */
+}
+
+.details{
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 0.5rem;
+}
+
+/* Style for the song name */
+h5 {
+    margin: 0; /* Remove any margin to decrease spacing */
+}
+
+/* Style for the artist name */
+h6 {
+    margin: 0; /* Remove any margin to decrease spacing */
+}
