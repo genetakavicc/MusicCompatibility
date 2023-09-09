@@ -17,7 +17,7 @@ body, html {
 
 /* Aspect ratio container */
 .album-cover {
-    width: 300px; /* Adjust the width as needed for a larger square */
+    width: 20rem; /* Adjust the width as needed for a larger square */
     padding-top: 100%; /* 1:1 aspect ratio (height = width) */
     position: relative;
     background-color: black; /* Background color for the container */
@@ -42,10 +42,6 @@ body, html {
 }
 
 /* Style for the text container */
-.text-container {
-    text-align: center;
-    margin-top: 10px; /* Adjust the margin-top to control spacing */
-}
 
 .details{
     text-align: center;
@@ -62,3 +58,4 @@ h5 {
 h6 {
     margin: 0; /* Remove any margin to decrease spacing */
 }
+    
